@@ -70,7 +70,8 @@ const config = {
             x: {
                 type: 'linear'
             }
-        }
+        },
+        responsive:true
     }
 };
 

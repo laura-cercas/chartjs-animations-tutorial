@@ -32,7 +32,7 @@ const graph_jscode="<pre style='height:400px'><code >const data = {\n" +
     "const graph = document.querySelector(&quot;#graph&quot;);\n" +
     "new Chart(graph, config);</code></pre>";
 
-const graph_htmlcode="<pre><code>&lt;div style=&quot;width: 600px&quot;&gt;\n" +
+const graph_htmlcode="<pre><code>&lt;div&gt;\n" +
     "   &lt;canvas id=&quot;graph&quot;&gt;&lt;/canvas&gt;\n" +
     "&lt;/div&gt;</code></pre>";
 document.getElementById('graph-js').innerHTML = graph_jscode;
